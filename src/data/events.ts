@@ -8,6 +8,10 @@ export interface Event {
   venue: string;
   registrationLink: string;
   rules: string[];
+  contacts: {
+    name: string;
+    phone: string;
+  }[];
 }
 
 export const eventsData: Record<string, Event[]> = {
@@ -22,12 +26,25 @@ export const eventsData: Record<string, Event[]> = {
       venue: "Bertram hall",
       registrationLink: "https://forms.google.com/adzap-registration",
       rules: [
-        "Teams of 4-5 members",
-        "Time limit: 30 minutes for preparation",
-        "5 minutes for presentation",
-        "Product/service will be given on spot",
-        "Props usage is allowed",
-        "Language: English or Tamil"
+        "It is a group event.",
+        "A team can consist of 5-8 participants ( including emcee)",
+        "Time Limit: 5 minutes performance + 1 minute preparation.",
+        "Product will be given on spot.",
+        "No props are allowed.",
+        "Negative marks will be allocated for extra time.",
+        "No form of vulgarity is allowed.",
+        "Judges' decision is final and binding.",
+        "Judging criteria: Content and script, acting skills, team coordination and costumes."
+      ],
+      contacts: [
+        {
+          name: "John Doe",
+          phone: "+1 555-1234-5678"
+        },
+        {
+          name: "Jane Smith",
+          phone: "+1 555-8765-4321"
+        }
       ]
     },
     {
@@ -46,6 +63,16 @@ export const eventsData: Record<string, Event[]> = {
         "Original content only",
         "No offensive content",
         "Props must be minimal"
+      ],
+      contacts: [
+        {
+          name: "Jane Smith",
+          phone: "+1 555-8765-4321"
+        },
+        {
+          name: "Jane Smith",
+          phone: "+1 555-8765-4321"
+        }
       ]
     },
     {
@@ -64,6 +91,16 @@ export const eventsData: Record<string, Event[]> = {
         "Product/service will be given on spot",
         "Props usage is allowed",
         "Language: English or Tamil"
+      ],
+      contacts: [
+        {
+          name: "John Doe",
+          phone: "+1 555-1234-5678"
+        },
+        {
+          name: "Jane Smith",
+          phone: "+1 555-8765-4321"
+        }
       ]
     },{
       id: "IPL auction",
@@ -81,6 +118,16 @@ export const eventsData: Record<string, Event[]> = {
         "Product/service will be given on spot",
         "Props usage is allowed",
         "Language: English or Tamil"
+      ],
+      contacts: [
+        {
+          name: "Jane Smith",
+          phone: "+1 555-8765-4321"
+        },
+        {
+          name: "Jane Smith",
+          phone: "+1 555-8765-4321"
+        }
       ]
     }
   ],
@@ -101,6 +148,16 @@ export const eventsData: Record<string, Event[]> = {
         "Internet access restricted",
         "Bring your own laptop",
         "IDE will be provided"
+      ],
+      contacts: [
+        {
+          name: "John Doe",
+          phone: "+1 555-1234-5678"
+        },
+        {
+          name: "Jane Smith",
+          phone: "+1 555-8765-4321"
+        }
       ]
     },
     {
@@ -119,6 +176,16 @@ export const eventsData: Record<string, Event[]> = {
         "Responsive design mandatory",
         "Time limit: 3 hours",
         "Live presentation required"
+      ],
+      contacts: [
+        {
+          name: "Jane Smith",
+          phone: "+1 555-8765-4321"
+        },
+        {
+          name: "Jane Smith",
+          phone: "+1 555-8765-4321"
+        }
       ]
     }, {
       id: "debugging",
@@ -136,6 +203,16 @@ export const eventsData: Record<string, Event[]> = {
         "Internet access restricted",
         "Bring your own laptop",
         "IDE will be provided"
+      ],
+      contacts: [
+        {
+          name: "John Doe",
+          phone: "+1 555-1234-5678"
+        },
+        {
+          name: "Jane Smith",
+          phone: "+1 555-8765-4321"
+        }
       ]
     },
     {
@@ -154,6 +231,16 @@ export const eventsData: Record<string, Event[]> = {
         "Responsive design mandatory",
         "Time limit: 3 hours",
         "Live presentation required"
+      ],
+      contacts: [
+        {
+          name: "Jane Smith",
+          phone: "+1 555-8765-4321"
+        },
+        {
+          name: "Jane Smith",
+          phone: "+1 555-8765-4321"
+        }
       ]
     }, {
       id: "Quiz",
@@ -171,6 +258,16 @@ export const eventsData: Record<string, Event[]> = {
         "Internet access restricted",
         "Bring your own laptop",
         "IDE will be provided"
+      ],
+      contacts: [
+        {
+          name: "John Doe",
+          phone: "+1 555-1234-5678"
+        },
+        {
+          name: "Jane Smith",
+          phone: "+1 555-8765-4321"
+        }
       ]
     },
     {
@@ -189,6 +286,16 @@ export const eventsData: Record<string, Event[]> = {
         "Responsive design mandatory",
         "Time limit: 3 hours",
         "Live presentation required"
+      ],
+      contacts: [
+        {
+          name: "Jane Smith",
+          phone: "+1 555-8765-4321"
+        },
+        {
+          name: "Jane Smith",
+          phone: "+1 555-8765-4321"
+        }
       ]
     }
   ],
@@ -209,6 +316,16 @@ export const eventsData: Record<string, Event[]> = {
         "Maximum 3 submissions",
         "Include source credits",
         "Format: JPG or PNG"
+      ],
+      contacts: [
+        {
+          name: "John Doe",
+          phone: "+1 555-1234-5678"
+        },
+        {
+          name: "Jane Smith",
+          phone: "+1 555-8765-4321"
+        }
       ]
     },
     {
@@ -227,6 +344,16 @@ export const eventsData: Record<string, Event[]> = {
         "Resolution: minimum 300 DPI",
         "Format: PDF or AI",
         "Include design explanation"
+      ],
+      contacts: [
+        {
+          name: "Jane Smith",
+          phone: "+1 555-8765-4321"
+        },
+        {
+          name: "Jane Smith",
+          phone: "+1 555-8765-4321"
+        }
       ]
     }
   ]

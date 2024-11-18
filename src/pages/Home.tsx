@@ -68,13 +68,20 @@ export default function Home() {
             </h2>
             <ul className="space-y-4">
               {[
-                "Valid college ID card is mandatory for all participants.",
-                "Registration is required for all events. On-spot registrations are subject to availability.",
-                "Participants must report 30 minutes before their scheduled event time.",
-                "Decision of the judges will be final and binding.",
-                "Use of mobile phones during competitions is strictly prohibited.",
-                "Any form of malpractice will lead to immediate disqualification.",
-                "Organizers reserve the right to modify rules or cancel events if necessary."
+                "There are a total of 10 events: 4 Technical  events, 4 Non-Technical events, and 2 online event.",
+                "Multiple teams can participate from a college, but One participant/team shall represent the department.",
+                "Departments with two shifts may send one representation each.",
+                "ID cards and bonafide certificates is mandatory for campus entry.",
+                "Timings for the on-spot registration are 8 am to 9 am.",
+                "Vulgarity or Humiliation of any person, will lead to disqualification of the participants.",
+                "Participants are requested to arrive at the venue 30 minutes prior to the event",
+                "Volunteers will be surrounding to assist the Participants",
+                "Participants should note down the venue and timings",
+                "Maintaining discipline is also a criteria for the final judgment",
+                "The decision of the judges will be final and binding.",
+
+
+
               ].map((rule, index) => (
                 <li key={index} className="flex items-start gap-4">
                   <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[#ff7f00]/20 text-[#ff7f00] flex items-center justify-center text-sm">

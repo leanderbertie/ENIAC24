@@ -79,6 +79,24 @@ export default function EventDetails() {
           <div className="w-full max-w-3xl">
             <EventRules event={event} />
           </div>
+
+          {/* Contact Section */}
+          {event.contacts && event.contacts.length > 0 && (
+            <div className="w-full max-w-3xl mt-16 mb-12">
+              <h2 className="text-2xl font-bold text-white mb-6 text-center">Contact Information</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                {event.contacts.map((contact, index) => (
+                  <div 
+                    key={index}
+                    className="bg-zinc-800/20 backdrop-blur-sm rounded-xl p-6 border border-zinc-800/30"
+                  >
+                    <h3 className="text-xl font-semibold text-[#ff7f00] mb-2">{contact.name}</h3>
+                    <p className="text-zinc-300">{contact.phone}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </div>
