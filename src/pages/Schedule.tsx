@@ -1,42 +1,61 @@
 import { Calendar, MapPin, Clock } from 'lucide-react';
 
 const scheduleData = [
-  {
-    time: "9:00 AM",
-    event: "Opening Ceremony",
-    venue: "Main Hall",
-    description: "Welcome address and event kickoff"
-  },
-  {
-    time: "10:00 AM",
-    event: "Technical Presentations",
-    venue: "Bertram Hall",
-    description: "Showcase of innovative technical projects"
-  },
-  {
-    time: "12:00 PM",
-    event: "Lunch Break",
-    venue: "Dining Area",
-    description: "Networking and refreshments"
-  },
-  {
-    time: "1:30 PM",
-    event: "Cultural Performances",
-    venue: "Auditorium",
-    description: "Music, dance, and dramatic performances"
-  },
-  {
-    time: "3:30 PM",
-    event: "Innovation Exhibition",
-    venue: "Exhibition Hall",
-    description: "Display of creative projects and innovations"
-  },
-  {
-    time: "5:00 PM",
-    event: "Awards Ceremony",
-    venue: "Main Hall",
-    description: "Recognition of outstanding participants"
-  }
+    {
+      time: "9:00 AM - 10:00 AM",
+      event: "Inauguration",
+      venue: "Sauliere Hall"
+    },
+    {
+      time: "10:00 AM",
+      event: "Mr and Mrs ENIAC",
+      venue: "Sauliere Hall"
+    },
+    {
+      time: "10:30 AM",
+      event: "Bug Hunter Arena",
+      venue: "Lab"
+    },
+    {
+      time: "10:30 AM",
+      event: "Pixel Craft",
+      venue: "Lab"
+    },
+    {
+      time: "10:30 AM",
+      event: "Electrocode",
+      venue: "Lab"
+    },
+    {
+      time: "10:30 AM",
+      event: "Team Hunt",
+      venue: "Smart Room"
+    },
+    {
+      time: "10:30 AM",
+      event: "Think Tank",
+      venue: "Class Room"
+    },
+    {
+      time: "12:00 PM",
+      event: "Quiztopia",
+      venue: "Sauliere Hall"
+    },
+    {
+      time: "1:00 PM",
+      event: "Ad Mavericks",
+      venue: "Sauliere Hall"
+    },
+    {
+      time: "2:00 PM",
+      event: "Remote Chaos",
+      venue: "Sauliere Hall"
+    },
+    {
+      time: "3:00 PM - 4:00 PM",
+      event: "Valedictory",
+      venue: "Sauliere Hall"
+    }
 ];
 
 export default function Schedule() {
@@ -75,7 +94,6 @@ export default function Schedule() {
                   <th className="py-3 px-4 text-left text-[#ff7f00] bg-black/50">Time</th>
                   <th className="py-3 px-4 text-left text-[#ff7f00] bg-black/50">Event</th>
                   <th className="py-3 px-4 text-left text-[#ff7f00] bg-black/50">Venue</th>
-                  <th className="py-3 px-4 text-left text-[#ff7f00] bg-black/50">Description</th>
                 </tr>
               </thead>
               <tbody>
@@ -84,7 +102,6 @@ export default function Schedule() {
                     <td className="py-3 px-4 text-[#ff7f00] font-semibold">{item.time}</td>
                     <td className="py-3 px-4 font-semibold text-white">{item.event}</td>
                     <td className="py-3 px-4 text-zinc-300">{item.venue}</td>
-                    <td className="py-3 px-4 text-zinc-400">{item.description}</td>
                   </tr>
                 ))}
               </tbody>
@@ -104,7 +121,6 @@ export default function Schedule() {
                   <MapPin className="text-[#ff7f00] w-4 h-4" />
                   {item.venue}
                 </div>
-                <div className="text-zinc-400 text-sm">{item.description}</div>
               </div>
             ))}
           </div>
@@ -134,7 +150,7 @@ export default function Schedule() {
               <MapPin className="text-[#ff7f00] w-5 h-5 sm:w-6 sm:h-6" />
               <div>
                 <h3 className="text-zinc-400 text-xs sm:text-sm mb-0.5">Venue</h3>
-                <p className="text-base sm:text-lg font-semibold">Bertram Hall</p>
+                <p className="text-base sm:text-lg font-semibold">Sauliere  Hall</p>
               </div>
             </div>
             <div className="flex items-center gap-3">

@@ -45,22 +45,10 @@ export default function Events() {
         {/* Technical Events */}
         <section className="mb-16">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#ff7f00] mb-8 drop-shadow-[0_0_15px_rgba(255,127,0,0.3)]">
-            Technical Events
+            Offstage Events
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-8">
             {eventsData.technical.map((event) => (
-              <ProjectCard key={event.id} {...event} />
-            ))}
-          </div>
-        </section>
-
-        {/* Online Events */}
-        <section className="mb-16">
-          <h2 className="text-2xl sm:text-3xl font-bold text-[#ff7f00] mb-8 drop-shadow-[0_0_15px_rgba(255,127,0,0.3)]">
-            Online Events
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-8">
-            {eventsData.online.map((event) => (
               <ProjectCard key={event.id} {...event} />
             ))}
           </div>

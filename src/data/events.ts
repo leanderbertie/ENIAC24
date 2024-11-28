@@ -17,14 +17,70 @@ export interface Event {
 export const eventsData: Record<string, Event[]> = {
   onstage: [
     {
-      id: "Title Event",
-      title: "Title Event",
-      description: "Create and present an innovative advertisement in a limited time. Test your creativity, improvisation, and presentation skills in this exciting challenge.",
-      image: "/images/titleevent.jpg",
+      id: "Mr & Mrs.ENIAC",
+      title: "Mr & Mrs. ENIAC (Title Event)",
+      description: "",
+      image: "images/title event poster.webp",
       date: "13 December 2024",
-      time: "10:00 AM - 12:00 PM",
-      venue: "Bertram hall",
+      time: "10:00 AM",
+      venue: "Sauliere hall",
       registrationLink: "https://forms.google.com/adzap-registration",
+      rules: [
+        "It is an individual events",
+        "Two entry per Departments",
+        "Multiple Rounds will be Contacted",
+        "Participants will be eliminated after each round.",
+        "One MR &MRS will be awarded",
+        "Make it till the final round to conquer the title MR/MRS ENIAC",
+        "Any form of vulgarity will lead to direct disqualification.",
+        "Judge’s decision will be final and binding."
+      ],
+      contacts: [
+        {
+          name: "John Doe",
+          phone: "+1 555-1234-5678"
+        },
+        {
+          name: "Jane Smith",
+          phone: "+1 555-8765-4321"
+        }
+      ]
+    },
+    {
+      id: "QUIZTOPIA",
+      title: "Quiztopia (Quiz)",
+      description: "",
+      image: "images/QUIZ POSTER copy (1).webp",
+      date: "13 December 2024",
+      time: "12:00 PM",
+      venue: "SAULIERE HALL",
+      registrationLink: "https://forms.google.com/debugging-registration",
+      rules: [
+        "One team should have maximum of 3 people.",
+        "There will be two rounds (Preliminary round followed by final round).",
+        "The use of electronic gadgets like mobile phone , iPad , tabs etc during quiz is strictly prohibited.",
+        "Quiz Master’s decision will be final."
+      ],
+      contacts: [
+        {
+          name: "John Doe",
+          phone: "+1 555-1234-5678"
+        },
+        {
+          name: "Jane Smith",
+          phone: "+1 555-8765-4321"
+        }
+      ]
+    },
+    {
+      id: "Ad Mavericks",
+      title: "Ad Mavericks (Adzap)",
+      description: "In an adzap event, participants create short, entertaining skits or performances with the goal of promoting a product or brand. The best performance will win",
+      image: "images/adzap poster.webp",
+      date: "13 December 2024",
+      time: "1:00 PM",
+      venue: "Mini Hall",
+      registrationLink: "https://forms.google.com/channel-surfing-registration",
       rules: [
         "It is a group event.",
         "A team can consist of 5-8 participants ( including emcee)",
@@ -38,34 +94,6 @@ export const eventsData: Record<string, Event[]> = {
       ],
       contacts: [
         {
-          name: "John Doe",
-          phone: "+1 555-1234-5678"
-        },
-        {
-          name: "Jane Smith",
-          phone: "+1 555-8765-4321"
-        }
-      ]
-    },
-    {
-      id: "Adzap",
-      title: "Adzap",
-      description: "Switch between different TV channel genres in this unique performance challenge. Show your versatility in acting and improvisation.",
-      image: "",
-      date: "13 December 2024",
-      time: "2:00 PM - 4:00 PM",
-      venue: "Mini Hall",
-      registrationLink: "https://forms.google.com/channel-surfing-registration",
-      rules: [
-        "Teams of 3-4 members",
-        "Performance time: 7-10 minutes",
-        "Minimum 4 channel changes",
-        "Original content only",
-        "No offensive content",
-        "Props must be minimal"
-      ],
-      contacts: [
-        {
           name: "Jane Smith",
           phone: "+1 555-8765-4321"
         },
@@ -76,53 +104,29 @@ export const eventsData: Record<string, Event[]> = {
       ]
     },
     {
-      id: "Channel surfing",
-      title: "Channel surfing",
-      description: "Create and present an innovative advertisement in a limited time. Test your creativity, improvisation, and presentation skills in this exciting challenge.",
-      image: "",
+      id: "Remote Chaos",
+      title: "Remote Chaos (Channel Surfing)",
+      description: "Perform a small skit presenting a TV or a youtube channel which changes rapidly. The channel to be given will be given on spot by the Judges and will be changed repeatedly. Channels may include youtube channels. The best performance will win",
+      image: "images/CHANNEL SURFING POSTER.webp",
       date: "13 December 2024",
-      time: "10:00 AM - 12:00 PM",
-      venue: "Bertram hall",
+      time: "02:00 PM",
+      venue: "Sauliere  hall",
       registrationLink: "https://forms.google.com/adzap-registration",
       rules: [
-        "Teams of 4-5 members",
-        "Time limit: 30 minutes for preparation",
-        "5 minutes for presentation",
-        "Product/service will be given on spot",
-        "Props usage is allowed",
-        "Language: English or Tamil"
+        "It is a group event ( 4-6 members in a team ).",
+        "No props are allowed.",
+        "Time limit: 3 to 5 minutes depending on the judges decision.",
+        "Participants will be given channel names on spot",
+        "Points will be awarded based on spontaneity, humor & originality.",
+        "Insensitive reference to any caste/community/ individual/ genders are strictly prohibited.",
+        "Vulgarity will lead to immediate disqualification.",
+        "Judging Criteria : Accuracy, Content and Spontaneity.",
+        "Judges decision will be final and binding."
       ],
       contacts: [
         {
           name: "John Doe",
           phone: "+1 555-1234-5678"
-        },
-        {
-          name: "Jane Smith",
-          phone: "+1 555-8765-4321"
-        }
-      ]
-    },{
-      id: "IPL auction",
-      title: "IPL auction",
-      description: "Create and present an innovative advertisement in a limited time. Test your creativity, improvisation, and presentation skills in this exciting challenge.",
-      image: "",
-      date: "13 December 2024",
-      time: "10:00 AM - 12:00 PM",
-      venue: "Smart room",
-      registrationLink: "https://forms.google.com/adzap-registration",
-      rules: [
-        "Teams of 4-5 members",
-        "Time limit: 30 minutes for preparation",
-        "5 minutes for presentation",
-        "Product/service will be given on spot",
-        "Props usage is allowed",
-        "Language: English or Tamil"
-      ],
-      contacts: [
-        {
-          name: "Jane Smith",
-          phone: "+1 555-8765-4321"
         },
         {
           name: "Jane Smith",
@@ -133,21 +137,22 @@ export const eventsData: Record<string, Event[]> = {
   ],
   technical: [
     {
-      id: "debugging",
-      title: "Debugging",
+      id: "Bug Hunter Arena",
+      title: "Bug Hunter Arena (Debugging)",
       description: "Put your problem-solving skills to the test in this intensive debugging challenge. Find and fix bugs in various programming languages.",
-      image: "",
+      image: "images/debugging poster.webp",
       date: "13 December 2024",
-      time: "9:00 AM - 12:00 PM",
+      time: "10:30 AM",
       venue: "Computer Lab",
       registrationLink: "https://forms.google.com/debugging-registration",
       rules: [
-        "Individual participation",
-        "Multiple programming languages supported",
-        "Time limit: 3 hours",
-        "Internet access restricted",
-        "Bring your own laptop",
-        "IDE will be provided"
+        "No. of participants per team : 2",
+        "No. of teams per college: 1",
+        "Duration : 1 hour",
+        "Languages : C++, Java, Python. The participants need to debug a program which might be in any of these languages",
+        "Multiple rounds will be conducted if necessary",
+        "The errors will be mostly logical in nature and not language specific",
+        "Decision of judges will be final"
       ],
       contacts: [
         {
@@ -161,13 +166,41 @@ export const eventsData: Record<string, Event[]> = {
       ]
     },
     {
-      id: "web-design",
-      title: "Web Design",
+      id: "Pixel Craft",
+      title: "Pixel Craft (Web Design)",
+      description: "Put your problem-solving skills to the test in this intensive debugging challenge. Find and fix bugs in various programming languages.",
+      image: "images/WEB DESIGN POSTER copy (1).webp",
+      date: "13 December 2024",
+      time: "11:00 AM",
+      venue: "Computer Lab",
+      registrationLink: "https://forms.google.com/debugging-registration",
+      rules: [
+        "NO OF PARTICIPANTS:  2",
+        "PARTICIPANTS  ARE EXPECTED TO BE PRESENT IN THE VENUE  BEFORE 30 MINUTES",
+        "PRELIMS WILL BE CONDUCTED IF NEEDED",
+        "THE DESIGN MUST REFLECT THE GIVEN THEME",
+        "Participants is required to present and explain their design followed by short deliberations by the judges",
+        "Judges decision will be final."
+      ],
+      contacts: [
+        {
+          name: "John Doe",
+          phone: "+1 555-1234-5678"
+        },
+        {
+          name: "Jane Smith",
+          phone: "+1 555-8765-4321"
+        }
+      ]
+    },
+    {
+      id: "Electrocode",
+      title: "Electrocode (Wired Coding)",
       description: "Create a stunning and functional website from scratch. Showcase your web development and design skills in this competitive event.",
       image: "",
       date: "13 December 2024",
-      time: "2:00 PM - 5:00 PM",
-      venue: "Design Lab",
+      time: "10:30 AM",
+      venue: "Computer Lab",
       registrationLink: "https://forms.google.com/web-design-registration",
       rules: [
         "Teams of 2 members",
@@ -188,162 +221,53 @@ export const eventsData: Record<string, Event[]> = {
         }
       ]
     }, {
-      id: "debugging",
-      title: "Debugging",
-      description: "Put your problem-solving skills to the test in this intensive debugging challenge. Find and fix bugs in various programming languages.",
-      image: "",
+      id: "Team Hunt",
+      title: "Team Hunt (IPL Auction)",
+      description: "Answer questions on IPL and bid for your favourite players",
+      image: "images/ipl auction poster2024c.webp",
       date: "13 December 2024",
-      time: "9:00 AM - 12:00 PM",
-      venue: "Computer Lab",
-      registrationLink: "https://forms.google.com/debugging-registration",
+      time: "10:00 AM - 12:00 PM",
+      venue: "Smart room",
+      registrationLink: "https://forms.google.com/adzap-registration",
       rules: [
-        "Individual participation",
-        "Multiple programming languages supported",
-        "Time limit: 3 hours",
-        "Internet access restricted",
-        "Bring your own laptop",
-        "IDE will be provided"
+        "A Team of 3 members max.",
+        "Using of electronic gadgets during prelims is strictly prohibited.",
+        "There will be two rounds: prelims followed by auction.",
+        "8 teams will be selected for the second round.",
+        "Each team should set their playing 11 with their purse amounts.",
+        "Playing 11 will be ranked by their last season performances.",
+        "Committee’s decision will be the final." 
       ],
       contacts: [
         {
-          name: "John Doe",
-          phone: "+1 555-1234-5678"
+          name: "Jane Smith",
+          phone: "+1 555-8765-4321"
         },
         {
           name: "Jane Smith",
           phone: "+1 555-8765-4321"
         }
       ]
+     
     },
     {
-      id: "web-design",
-      title: "Web Design",
-      description: "Create a stunning and functional website from scratch. Showcase your web development and design skills in this competitive event.",
-      image: "",
+      id: "Think Tank",
+      title: "Think Tank (Paper Presentation)",
+      description: "Showcase cutting-edge research and advancements through engaging presentations. Teams will present on a chosen topic from the given topics for 6 minutes and will face a query session for another 2 mins. The team with the best presentation will win. The presentations should be emailed to the organiser before the event",
+      image: "images/PAPER PRESENTATION POSTER copy (1).webp",
       date: "13 December 2024",
-      time: "2:00 PM - 5:00 PM",
+      time: "10:30 AM",
       venue: "Design Lab",
       registrationLink: "https://forms.google.com/web-design-registration",
       rules: [
-        "Teams of 2 members",
-        "Original design required",
-        "Framework usage allowed",
-        "Responsive design mandatory",
-        "Time limit: 3 hours",
-        "Live presentation required"
-      ],
-      contacts: [
-        {
-          name: "Jane Smith",
-          phone: "+1 555-8765-4321"
-        },
-        {
-          name: "Jane Smith",
-          phone: "+1 555-8765-4321"
-        }
-      ]
-    }, {
-      id: "Quiz",
-      title: "Quiz",
-      description: "Put your problem-solving skills to the test in this intensive debugging challenge. Find and fix bugs in various programming languages.",
-      image: "",
-      date: "13 December 2024",
-      time: "9:00 AM - 12:00 PM",
-      venue: "Computer Lab",
-      registrationLink: "https://forms.google.com/debugging-registration",
-      rules: [
-        "Individual participation",
-        "Multiple programming languages supported",
-        "Time limit: 3 hours",
-        "Internet access restricted",
-        "Bring your own laptop",
-        "IDE will be provided"
-      ],
-      contacts: [
-        {
-          name: "John Doe",
-          phone: "+1 555-1234-5678"
-        },
-        {
-          name: "Jane Smith",
-          phone: "+1 555-8765-4321"
-        }
-      ]
-    },
-    {
-      id: "Paper presentation",
-      title: "Paper presentation",
-      description: "Create a stunning and functional website from scratch. Showcase your web development and design skills in this competitive event.",
-      image: "",
-      date: "13 December 2024",
-      time: "2:00 PM - 5:00 PM",
-      venue: "Design Lab",
-      registrationLink: "https://forms.google.com/web-design-registration",
-      rules: [
-        "Teams of 2 members",
-        "Original design required",
-        "Framework usage allowed",
-        "Responsive design mandatory",
-        "Time limit: 3 hours",
-        "Live presentation required"
-      ],
-      contacts: [
-        {
-          name: "Jane Smith",
-          phone: "+1 555-8765-4321"
-        },
-        {
-          name: "Jane Smith",
-          phone: "+1 555-8765-4321"
-        }
-      ]
-    }
-  ],
-  online: [
-    {
-      id: "meme-creation",
-      title: "Meme Creation",
-      description: "Create original and hilarious memes based on given themes. Show your creativity and humor in this online competition.",
-      image: "",
-      date: "13 December 2024",
-      time: "Flexible",
-      venue: "Online",
-      registrationLink: "https://forms.google.com/meme-creation-registration",
-      rules: [
-        "Individual participation",
-        "Original content only",
-        "No offensive content",
-        "Maximum 3 submissions",
-        "Include source credits",
-        "Format: JPG or PNG"
-      ],
-      contacts: [
-        {
-          name: "John Doe",
-          phone: "+1 555-1234-5678"
-        },
-        {
-          name: "Jane Smith",
-          phone: "+1 555-8765-4321"
-        }
-      ]
-    },
-    {
-      id: "poster-making",
-      title: "Poster Making",
-      description: "Design eye-catching posters for given themes. Demonstrate your graphic design skills in this digital art competition.",
-      image: "",
-      date: "13 December 2024",
-      time: "Flexible",
-      venue: "Online",
-      registrationLink: "https://forms.google.com/poster-making-registration",
-      rules: [
-        "Individual participation",
-        "Digital submissions only",
-        "Original artwork required",
-        "Resolution: minimum 300 DPI",
-        "Format: PDF or AI",
-        "Include design explanation"
+        "2 person per team and",
+        "Timings 6+2 (6mins presentation+2mins preparation)no extra time and will be paused if time limit exceeds",
+        "Make your title and content legible",
+        "Directly copying from the internet is discouraged and will not be entertained",
+        "Abstract should be submitted on or before 8th December",
+        "Paper presentation should be submitted on 10th December",
+        "Final participants for presenting onstage will be short listed based on contents that they had submitted",
+        "Based on application/model/implementation priority will be given"
       ],
       contacts: [
         {
