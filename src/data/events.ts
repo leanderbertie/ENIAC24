@@ -37,8 +37,8 @@ export const eventsData: Record<string, Event[]> = {
       ],
       contacts: [
         {
-          name: "Jambulingam",
-          phone: "9894787744"
+          name: "joseph",
+          phone: "6380805183"
         },
         {
           name: "Joshwa",
@@ -53,7 +53,7 @@ export const eventsData: Record<string, Event[]> = {
       image: "images/QUIZ POSTER copy (1).webp",
       date: "13 December 2024",
       time: "12:00 PM",
-      venue: "SAULIERE HALL",
+      venue: "Sauliere HALL",
       registrationLink: "https://forms.gle/js2VFikdHG6TTWvf6",
       rules: [
       "One team should have maximum of 3 people.",
@@ -80,7 +80,7 @@ export const eventsData: Record<string, Event[]> = {
       image: "images/adzap poster.webp",
       date: "13 December 2024",
       time: "1:00 PM",
-      venue: "Mini Hall",
+      venue: "Sauliere Hall",
       registrationLink: "https://docs.google.com/forms/d/1VedCU9Jh53soSG73GQsyGxZ12SvDr-OrcnCB2Z38cTg/edit",
       rules: [
         "It is a group event.",
@@ -131,7 +131,7 @@ export const eventsData: Record<string, Event[]> = {
         },
         {
           name: "Alwin",
-          phone: "8838268933"
+          phone: "8056253230"
         }
       ]
     }
@@ -149,7 +149,7 @@ export const eventsData: Record<string, Event[]> = {
       rules: [
         "No. of participants per team : 2",
         "No. of teams per college: 1",
-        "Duration : 1 hour",
+        
         "Languages : Java, Python. The participants need to debug a program which might be in any of these languages",
         "Multiple rounds will be conducted if necessary",
         "The errors will be mostly logical in nature and not language specific",
@@ -176,12 +176,14 @@ export const eventsData: Record<string, Event[]> = {
       venue: "Computer Lab",
       registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSeJfEW70SZIzwmTZa_4cNmDY7j9CFcW0PUdZQdoNs0sMyezlQ/viewform?usp=sf_link",
       rules: [
-        "NO OF PARTICIPANTS:  2",
-        "PARTICIPANTS  ARE EXPECTED TO BE PRESENT IN THE VENUE  BEFORE 30 MINUTES",
-        "PRELIMS WILL BE CONDUCTED IF NEEDED",
-        "THE DESIGN MUST REFLECT THE GIVEN THEME",
-        "Participants is required to present and explain their design followed by short deliberations by the judges",
-        "Judges decision will be final."
+        "No Of Participants:  2",
+        "Participants  Are Expected To Be Present In The Venue  Before 30 Minutes",
+        "Prelims Will Be Conducted If Needed",
+        "The Design Must Reflect The Given Theme",
+        "Participants Is Required To Present And Explain Their Design Followed By Short Deliberations By The Judges",
+        "Judges Decision Will Be Final."
+
+
       ],
       contacts: [
         {
@@ -196,9 +198,9 @@ export const eventsData: Record<string, Event[]> = {
     },
     {
       id: "Electrocode",
-      title: "Electrocode (Wired Coding)",
-      description: " the weird coding challenge is an exciting competition designed to test your programming skills across a variety of coding languages . This challenge pushs participants to adapt and solve problems using different programming languages .",
-      image: "",
+      title: "Electrocode (Weird Coding)",
+      description: " The weird coding challenge is an exciting competition designed to test your programming skills across a variety of coding languages . This challenge pushs participants to adapt and solve problems using different programming languages .",
+      image: "images/wired-coding-poster_01.webp",
       date: "13 December 2024",
       time: "10:30 AM",
       venue: "Computer Lab",
@@ -214,12 +216,12 @@ export const eventsData: Record<string, Event[]> = {
       ],
       contacts: [
         {
-          name: "Rhea",
-          phone: "7483588879"
-        },
-        {
           name: "Antony",
           phone: "70106 51219"
+        },
+        {
+          name: "Rhea",
+          phone: "7483588879" 
         }
       ]
     }, {
@@ -228,7 +230,7 @@ export const eventsData: Record<string, Event[]> = {
       description: "Answer questions on IPL and bid for your favourite players",
       image: "images/ipl auction poster2024c.webp",
       date: "13 December 2024",
-      time: "10:00 AM - 12:00 PM",
+      time: "10:30 AM ",
       venue: "Smart room",
       registrationLink: "https://forms.gle/hwwfm1UKZHZYF2Cg7",
       rules: [
@@ -262,6 +264,7 @@ export const eventsData: Record<string, Event[]> = {
       venue: "Computer Lab",
       registrationLink: "https://forms.gle/8kxSEnAgTmHiX6iq6",
       rules: [
+        "paper presentation topics:Data mining, Data efficiency management,Big data analytics,Machine Learning Data analytics, Deep learning IOT Data analytics,Ai in Data management",
         "2 person per team and",
         "Timings 6+2 (6mins presentation+2mins preparation)no extra time and will be paused if time limit exceeds",
         "Make your title and content legible",

@@ -112,11 +112,11 @@ export default function Schedule() {
           <div className="sm:hidden space-y-3">
             {scheduleData.map((item, index) => (
               <div key={index} className="bg-black/40 backdrop-blur-xl rounded-lg p-4 border border-[#ff7f00]/10">
+                <div className="font-semibold text-white mb-1">{item.event}</div>
                 <div className="flex items-center gap-2 mb-2">
                   <Clock className="text-[#ff7f00] w-4 h-4" />
                   <div className="text-[#ff7f00] font-semibold">{item.time}</div>
                 </div>
-                <div className="font-semibold text-white mb-1">{item.event}</div>
                 <div className="flex items-center gap-2 text-zinc-300 text-sm mb-1">
                   <MapPin className="text-[#ff7f00] w-4 h-4" />
                   {item.venue}

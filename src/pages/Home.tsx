@@ -24,8 +24,8 @@ export default function Home() {
             className="w-48 h-48 drop-shadow-[0_0_25px_rgba(255,127,0,0.3)]" 
           />
           <p className="text-xl text-zinc-300 max-w-3xl text-center leading-relaxed">
-            "ENIAC'24" is an innovative design software tailored to streamline your creative workflow. With its intuitive interface and cutting-edge AI tools, ENIAC'24 empowers designers to unleash their creativity and bring their ideas to life with ease.
-          </p>
+          ENIAC'24: Celebrating Innovation and Creativity
+          An electrifying tech fest blending innovation, creativity, and technology. Showcase your talent through coding, gaming, and workshops, and explore the future of tech. Join us for a celebration of technology and camaraderie! </p>
           <Link to="/events">          
             <button className="relative inline-flex h-14 active:scale-95 transition overflow-hidden rounded-lg p-[1px] focus:outline-none hover:shadow-[0_0_35px_rgba(255,127,0,0.5)]">
               <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#ff7f00_0%,#000000_50%,#ff7f00_100%)]" />
@@ -42,7 +42,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { title: "Date", value: "13 December", icon: <Calendar className="text-[#ff7f00] w-6 h-6" /> },
-              { title: "Venue", value: "Bertram hall", icon: <MapPin className="text-[#ff7f00] w-6 h-6" /> },
+              { title: "Venue", value: "Sauliere hall", icon: <MapPin className="text-[#ff7f00] w-6 h-6" /> },
               { title: "Time", value: "9:00 AM", icon: <Clock className="text-[#ff7f00] w-6 h-6" /> }
             ].map((item) => (
               <div key={item.title} className="relative">
