@@ -19,99 +19,100 @@ export const eventsData: Record<string, Event[]> = {
     {
       id: "Mr & Mrs.ENIAC",
       title: "Mr & Mrs. ENIAC (Title Event)",
-      description: "",
+      description: "Title event is a prestigious individual event.Participants will undergo several different rounds based on judges decisions. Each round has elimination among all participants.The last person standing will be crowned as MR/MRS ENIAC 2024.",
       image: "images/title event poster.webp",
       date: "13 December 2024",
       time: "10:00 AM",
       venue: "Sauliere hall",
-      registrationLink: "https://forms.google.com/adzap-registration",
+      registrationLink: "https://forms.gle/MTd3QuYEtUzXjcjK8",
       rules: [
-        "It is an individual events",
-        "Two entry per Departments",
-        "Multiple Rounds will be Contacted",
-        "Participants will be eliminated after each round.",
-        "One MR &MRS will be awarded",
-        "Make it till the final round to conquer the title MR/MRS ENIAC",
-        "Any form of vulgarity will lead to direct disqualification.",
-        "Judge’s decision will be final and binding."
+      "It is an individual events",
+      "Two entry per Departments",
+      "Multiple Rounds will be Contacted",
+      "Participants will be eliminated after each round.",
+      "One MR &MRS will be awarded",
+      "Make it till the final round to conquer the title MR/MRS ENIAC",
+      "Any form of vulgarity will lead to direct disqualification.",
+      "Judge’s decision will be final and binding."
       ],
       contacts: [
         {
-          name: "John Doe",
-          phone: "+1 555-1234-5678"
+          name: "Jambulingam",
+          phone: "9894787744"
         },
         {
-          name: "Jane Smith",
-          phone: "+1 555-8765-4321"
+          name: "Joshwa",
+          phone: "7397566377"
         }
       ]
     },
     {
       id: "QUIZTOPIA",
       title: "Quiztopia (Quiz)",
-      description: "",
+      description: "Questions covering general topics like entertainment,sports,business,arts and monument ,history ,popculture,food presented to test participants critical thinking with a prelims and finals round",
       image: "images/QUIZ POSTER copy (1).webp",
       date: "13 December 2024",
       time: "12:00 PM",
       venue: "SAULIERE HALL",
-      registrationLink: "https://forms.google.com/debugging-registration",
+      registrationLink: "https://forms.gle/js2VFikdHG6TTWvf6",
       rules: [
-        "One team should have maximum of 3 people.",
-        "There will be two rounds (Preliminary round followed by final round).",
-        "The use of electronic gadgets like mobile phone , iPad , tabs etc during quiz is strictly prohibited.",
-        "Quiz Master’s decision will be final."
+      "One team should have maximum of 3 people.",
+      "There will be two rounds (Preliminary round followed by final round).",
+      "The use of electronic gadgets like mobile phone , iPad , tabs etc during quiz is strictly prohibited .",
+      "Quiz Master’s decision will be final."
+
       ],
       contacts: [
         {
-          name: "John Doe",
-          phone: "+1 555-1234-5678"
+          name: "Prithvi",
+          phone: "63827 03760"
         },
         {
-          name: "Jane Smith",
-          phone: "+1 555-8765-4321"
+          name: "Kaarmukil",
+          phone: "7305284603"
         }
       ]
     },
     {
       id: "Ad Mavericks",
       title: "Ad Mavericks (Adzap)",
-      description: "In an adzap event, participants create short, entertaining skits or performances with the goal of promoting a product or brand. The best performance will win",
+      description: "Participants create entertaining skits to promote a product or brand. The best performance wins",
       image: "images/adzap poster.webp",
       date: "13 December 2024",
       time: "1:00 PM",
       venue: "Mini Hall",
-      registrationLink: "https://forms.google.com/channel-surfing-registration",
+      registrationLink: "https://docs.google.com/forms/d/1VedCU9Jh53soSG73GQsyGxZ12SvDr-OrcnCB2Z38cTg/edit",
       rules: [
         "It is a group event.",
-        "A team can consist of 5-8 participants ( including emcee)",
+       " A team can consist of 5-8 participants (including emcee)",
         "Time Limit: 5 minutes performance + 1 minute preparation.",
-        "Product will be given on spot.",
+      "  Product will be given on spot.",
         "No props are allowed.",
         "Negative marks will be allocated for extra time.",
         "No form of vulgarity is allowed.",
         "Judges' decision is final and binding.",
-        "Judging criteria: Content and script, acting skills, team coordination and costumes."
-      ],
+       " Judging criteria: Content and script, acting skills, team coordination and costumes. "  
+    ],
       contacts: [
         {
-          name: "Jane Smith",
-          phone: "+1 555-8765-4321"
+          name: "Joshwa",
+          phone: "63808 05183"
         },
         {
-          name: "Jane Smith",
-          phone: "+1 555-8765-4321"
+          name: "Tony",
+          phone: "84380 88445"
         }
       ]
     },
     {
       id: "Remote Chaos",
       title: "Remote Chaos (Channel Surfing)",
-      description: "Perform a small skit presenting a TV or a youtube channel which changes rapidly. The channel to be given will be given on spot by the Judges and will be changed repeatedly. Channels may include youtube channels. The best performance will win",
+      description: "Perform a skit showcasing rapidly changing TV or YouTube channels, with names provided on the spot.",
       image: "images/CHANNEL SURFING POSTER.webp",
       date: "13 December 2024",
       time: "02:00 PM",
       venue: "Sauliere  hall",
-      registrationLink: "https://forms.google.com/adzap-registration",
+      registrationLink: "https://docs.google.com/forms/d/1uiMCtDvPRv84iPGahjh5GoKd15erzo7eUaoigOySb0w/edit",
       rules: [
         "It is a group event ( 4-6 members in a team ).",
         "No props are allowed.",
@@ -125,12 +126,12 @@ export const eventsData: Record<string, Event[]> = {
       ],
       contacts: [
         {
-          name: "John Doe",
-          phone: "+1 555-1234-5678"
+          name: "Prasath",
+          phone: "9342854369"
         },
         {
-          name: "Jane Smith",
-          phone: "+1 555-8765-4321"
+          name: "Alwin",
+          phone: "8838268933"
         }
       ]
     }
@@ -139,41 +140,41 @@ export const eventsData: Record<string, Event[]> = {
     {
       id: "Bug Hunter Arena",
       title: "Bug Hunter Arena (Debugging)",
-      description: "Put your problem-solving skills to the test in this intensive debugging challenge. Find and fix bugs in various programming languages.",
+      description: "Put your debugging skills to the test and fix bugs in multiple programming language",
       image: "images/debugging poster.webp",
       date: "13 December 2024",
       time: "10:30 AM",
       venue: "Computer Lab",
-      registrationLink: "https://forms.google.com/debugging-registration",
+      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSdlMeuLPJstnxKuqA4__kM4vve7vg_kYDQMuauOKqZYdlSaTw/viewform?usp=sf_link",
       rules: [
         "No. of participants per team : 2",
         "No. of teams per college: 1",
         "Duration : 1 hour",
-        "Languages : C++, Java, Python. The participants need to debug a program which might be in any of these languages",
+        "Languages : Java, Python. The participants need to debug a program which might be in any of these languages",
         "Multiple rounds will be conducted if necessary",
         "The errors will be mostly logical in nature and not language specific",
         "Decision of judges will be final"
       ],
       contacts: [
         {
-          name: "John Doe",
-          phone: "+1 555-1234-5678"
+          name: "Adithyan",
+          phone: "8072257590"
         },
         {
-          name: "Jane Smith",
-          phone: "+1 555-8765-4321"
+          name: "Kailash",
+          phone: "93617 72822"
         }
       ]
     },
     {
       id: "Pixel Craft",
       title: "Pixel Craft (Web Design)",
-      description: "Put your problem-solving skills to the test in this intensive debugging challenge. Find and fix bugs in various programming languages.",
+      description: "Create web designs based on a given theme.",
       image: "images/WEB DESIGN POSTER copy (1).webp",
       date: "13 December 2024",
       time: "11:00 AM",
       venue: "Computer Lab",
-      registrationLink: "https://forms.google.com/debugging-registration",
+      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSeJfEW70SZIzwmTZa_4cNmDY7j9CFcW0PUdZQdoNs0sMyezlQ/viewform?usp=sf_link",
       rules: [
         "NO OF PARTICIPANTS:  2",
         "PARTICIPANTS  ARE EXPECTED TO BE PRESENT IN THE VENUE  BEFORE 30 MINUTES",
@@ -184,40 +185,41 @@ export const eventsData: Record<string, Event[]> = {
       ],
       contacts: [
         {
-          name: "John Doe",
-          phone: "+1 555-1234-5678"
+          name: "Enoch",
+          phone: "8838556901"
         },
         {
-          name: "Jane Smith",
-          phone: "+1 555-8765-4321"
+          name: "Sachin",
+          phone: "8946076405"
         }
       ]
     },
     {
       id: "Electrocode",
       title: "Electrocode (Wired Coding)",
-      description: "Create a stunning and functional website from scratch. Showcase your web development and design skills in this competitive event.",
+      description: " the weird coding challenge is an exciting competition designed to test your programming skills across a variety of coding languages . This challenge pushs participants to adapt and solve problems using different programming languages .",
       image: "",
       date: "13 December 2024",
       time: "10:30 AM",
       venue: "Computer Lab",
-      registrationLink: "https://forms.google.com/web-design-registration",
+      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSd9ihnQgMOinxXmgNFAz_jIJGBMKkdX8FjLrnzxJzLVIWtKqw/viewform?usp=sf_link",
       rules: [
-        "Teams of 2 members",
-        "Original design required",
-        "Framework usage allowed",
-        "Responsive design mandatory",
-        "Time limit: 3 hours",
-        "Live presentation required"
+        "2 members per team",
+        "Only one team per department",
+        "Manual for the coding language will be given to each team",
+        "20 mins will be given to explain and to prepare for the challenge",
+        "40 mins to solve the problem given",
+        "Programming languages will be explained onspot",
+        "Judging criteria is based on amount of time taken to solve the problems and no. of errors in your code"
       ],
       contacts: [
         {
-          name: "Jane Smith",
-          phone: "+1 555-8765-4321"
+          name: "Rhea",
+          phone: "7483588879"
         },
         {
-          name: "Jane Smith",
-          phone: "+1 555-8765-4321"
+          name: "Antony",
+          phone: "70106 51219"
         }
       ]
     }, {
@@ -228,7 +230,7 @@ export const eventsData: Record<string, Event[]> = {
       date: "13 December 2024",
       time: "10:00 AM - 12:00 PM",
       venue: "Smart room",
-      registrationLink: "https://forms.google.com/adzap-registration",
+      registrationLink: "https://forms.gle/hwwfm1UKZHZYF2Cg7",
       rules: [
         "A Team of 3 members max.",
         "Using of electronic gadgets during prelims is strictly prohibited.",
@@ -240,12 +242,12 @@ export const eventsData: Record<string, Event[]> = {
       ],
       contacts: [
         {
-          name: "Jane Smith",
-          phone: "+1 555-8765-4321"
+          name: "Jude",
+          phone: "8300179606"
         },
         {
-          name: "Jane Smith",
-          phone: "+1 555-8765-4321"
+          name: "Hadithya",
+          phone: "8825753676"
         }
       ]
      
@@ -257,8 +259,8 @@ export const eventsData: Record<string, Event[]> = {
       image: "images/PAPER PRESENTATION POSTER copy (1).webp",
       date: "13 December 2024",
       time: "10:30 AM",
-      venue: "Design Lab",
-      registrationLink: "https://forms.google.com/web-design-registration",
+      venue: "Computer Lab",
+      registrationLink: "https://forms.gle/8kxSEnAgTmHiX6iq6",
       rules: [
         "2 person per team and",
         "Timings 6+2 (6mins presentation+2mins preparation)no extra time and will be paused if time limit exceeds",
@@ -271,12 +273,12 @@ export const eventsData: Record<string, Event[]> = {
       ],
       contacts: [
         {
-          name: "Jane Smith",
-          phone: "+1 555-8765-4321"
+          name: "Jai Harish",
+          phone: "6385310868"
         },
         {
-          name: "Jane Smith",
-          phone: "+1 555-8765-4321"
+          name: "Rhea",
+          phone: " 7483588879"
         }
       ]
     }
