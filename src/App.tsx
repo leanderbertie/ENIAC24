@@ -4,12 +4,14 @@ import Home from './pages/Home';
 import Events from './pages/Events';
 import Schedule from './pages/Schedule';
 import EventDetails from './pages/EventDetails';
+import ScrollToTop from './components/ScrollToTop';
 
 export default function App() {
   return (
     <Router>
       <div className="bg-zinc-900 min-h-screen">
         <Navbar />
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/events" element={<Events />} />

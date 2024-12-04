@@ -3,6 +3,7 @@ import { useParams, Link, useNavigate } from 'react-router-dom';
 import { eventsData } from '../data/events';
 import EventInfo from '../components/EventInfo';
 import EventRules from '../components/EventRules';
+import { useEffect } from 'react';
 
 
 // Update the image path to point to public folder
@@ -11,6 +12,11 @@ const EVENT_BANNER_IMAGE = '/images/eventdetailsimage.jpg';
 export default function EventDetails() {
   const { eventId } = useParams();
   const navigate = useNavigate();
+
+  // Scroll to top on component mount
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   // Find the event in all categories
   const event = Object.values(eventsData)

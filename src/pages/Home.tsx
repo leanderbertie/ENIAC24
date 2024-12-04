@@ -25,7 +25,7 @@ export default function Home() {
           />
           <p className="text-xl text-zinc-300 max-w-3xl text-center leading-relaxed">
           ENIAC'24: Celebrating Innovation and Creativity
-          An electrifying tech fest blending innovation, creativity, and technology. Showcase your talent through coding, gaming, and workshops, and explore the future of tech. Join us for a celebration of technology and camaraderie! </p>
+          An electrifying tech fest blending innovation, creativity, and technology. Showcase your talent through coding, and workshops, and explore the future of tech. Join us for a celebration of technology and camaraderie! </p>
           <Link to="/events">          
             <button className="relative inline-flex h-14 active:scale-95 transition overflow-hidden rounded-lg p-[1px] focus:outline-none hover:shadow-[0_0_35px_rgba(255,127,0,0.5)]">
               <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#ff7f00_0%,#000000_50%,#ff7f00_100%)]" />
