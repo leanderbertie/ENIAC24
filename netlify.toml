@@ -1,16 +1,13 @@
 [build]
-  command = "next build && next export"
-  publish = "out"
-
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
-
-[build.environment]
-  NETLIFY_NEXT_PLUGIN_SKIP = "true"
+  command = "next build && next export" # Ensure this is correct
+  publish = "out" # Ensure this matches your output directory
 
 [[redirects]]
-from = '/_next/image/*'
-query = { q = ':quality', url = ':url', w = ':width' }
-to = '/.netlify/images?url=:url&w=:width&q=:quality'
-status = 200
-force = true
+  from = "/_next/image/*"
+  to = "/.netlify/images?url=:url&w=:width&q=:quality"
+  status = 200
+  force = true
+
+  [build]
+  command = "vite build"
+  publish = "dist" # This is the default output directory for Vite
