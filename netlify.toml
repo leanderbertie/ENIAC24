@@ -1,13 +1,9 @@
 [build]
-  command = "next build && next export" # Ensure this is correct
-  publish = "out" # Ensure this matches your output directory
+  command = "npm run build" # Use the build command for Vite
+  publish = "dist" # This is the default output directory for Vite
 
 [[redirects]]
-  from = "/_next/image/*"
-  to = "/.netlify/images?url=:url&w=:width&q=:quality"
+  from = "/*"
+  to = "/index.html"
   status = 200
   force = true
-
-  [build]
-  command = "vite build"
-  publish = "dist" # This is the default output directory for Vite
