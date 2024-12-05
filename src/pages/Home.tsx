@@ -18,14 +18,23 @@ export default function Home() {
       <div className="relative z-10 max-w-7xl mx-auto px-6 py-20">
         {/* Hero Section */}
         <div className="flex flex-col items-center gap-10 mb-24">
+        <img 
+            src="/images/Organizes.png" 
+            alt="Organizes" 
+            className="w-70 h-60 drop-shadow-[0_0_25px_rgba(255,127,0,0.3)]" 
+          />
           <img 
             src="/images/logo final .png" 
             alt="ENIAC'24" 
             className="w-48 h-48 drop-shadow-[0_0_25px_rgba(255,127,0,0.3)]" 
           />
+          
+        
+          
           <p className="text-xl text-zinc-300 max-w-3xl text-center leading-relaxed">
-          ENIAC'24: Celebrating Innovation and Creativity
-          An electrifying tech fest blending innovation, creativity, and technology. Showcase your talent through coding, and workshops, and explore the future of tech. Join us for a celebration of technology and camaraderie! </p>
+            ENIAC'24: Celebrating Innovation and Creativity
+            An electrifying tech fest blending innovation, creativity, and technology. Showcase your talent through coding, and workshops, and explore the future of tech. Join us for a celebration of technology and camaraderie!
+          </p>
           <Link to="/events">          
             <button className="relative inline-flex h-14 active:scale-95 transition overflow-hidden rounded-lg p-[1px] focus:outline-none hover:shadow-[0_0_35px_rgba(255,127,0,0.5)]">
               <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#ff7f00_0%,#000000_50%,#ff7f00_100%)]" />
@@ -37,18 +46,19 @@ export default function Home() {
           </Link>
         </div>
 
+       
+
         {/* Event Details Section */}
         <section className="mb-16">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { title: "Date", value: "13 December", icon: <Calendar className="text-[#ff7f00] w-6 h-6" /> },
-              { title: "Venue", value: "Sauliere hall", icon: <MapPin className="text-[#ff7f00] w-6 h-6" /> },
-              { title: "Time", value: "9:00 AM", icon: <Clock className="text-[#ff7f00] w-6 h-6" /> }
+              {  value: "13 December", icon: <Calendar className="text-[#ff7f00] w-6 h-6" /> },
+              {  value: "Sauliere hall", icon: <MapPin className="text-[#ff7f00] w-6 h-6" /> },
+              {  value: "9:00 AM", icon: <Clock className="text-[#ff7f00] w-6 h-6" /> }
             ].map((item) => (
-              <div key={item.title} className="relative">
+              <div key={item.value} className="relative">
                 <div className="py-6 flex flex-col items-center justify-center gap-3">
                   {item.icon}
-                  <h3 className="text-[#ff7f00] text-lg font-medium">{item.title}</h3>
                   <p className="text-2xl font-bold bg-gradient-to-r from-white via-orange-100 to-white bg-clip-text text-transparent">{item.value}</p>
                 </div>
                 {/* Vertical line on the right */}
@@ -68,16 +78,16 @@ export default function Home() {
             </h2>
             <ul className="space-y-4">
               {[
-                "There are a total of 10 events: 4 Technical  events, 4 Non-Technical events, and 2 online event.",
+                "There are a total of 9 events: 4-onstage and 5-offstage.",
                 "Multiple teams can participate from a college, but One participant/team shall represent the department.",
                 "Departments with two shifts may send one representation each.",
-                "ID cards and bonafide certificates is mandatory for campus entry.",
-                "Timings for the on-spot registration are 8 am to 9 am.",
+                "ID cards and bonafide certificates are mandatory for campus entry.",
+                "Timings for the on-spot registration starts from 8 am to 9 am.",
                 "Vulgarity or Humiliation of any person, will lead to disqualification of the participants.",
                 "Participants are requested to arrive at the venue 30 minutes prior to the event",
-                "Volunteers will be surrounding to assist the Participants",
+                "Volunteers will be there to assist the Participants",
                 "Participants should note down the venue and timings",
-                "Maintaining discipline is also a criteria for the final judgment",
+                "Maintaining discipline is also a criteria for the final judgement",
                 "The decision of the judges will be final and binding.",
 
 
@@ -92,6 +102,48 @@ export default function Home() {
               ))}
             </ul>
           </div>
+           {/* Contact Information Section */}
+        <section className="mt-24 mb-10">
+          <h2 className="text-2xl font-bold text-[#ff7f00] mb-4 text-center">Contact Information</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 text-zinc-300">
+            <div className="p-4 border border-zinc-700 rounded-lg">
+              <p>Dr. J. Jerald Inico</p>
+              <p>Head of Department</p>
+            </div>
+            <div className="p-4 border border-zinc-700 rounded-lg">
+              <p>Dr. I. Justin Sophia</p>
+              <p>Co-ordinator</p>
+            </div>
+            <div className="p-4 border border-zinc-700 rounded-lg">
+              <p>Dr. A. Jasmine Jinitha</p>
+              <p>President FIT</p>
+            </div>
+            <div className="p-4 border border-zinc-700 rounded-lg">
+              <p>Dr. E. Gangadevi</p>
+              <p>Vice - President FIT</p>
+            </div>
+            <div className="p-4 border border-zinc-700 rounded-lg">
+              <p>R. Saran Babu</p>
+              <p>Joint Secretary</p>
+              <p>Phone: 88254 07585</p>
+            </div>
+            <div className="p-4 border border-zinc-700 rounded-lg">
+              <p>S. Joshwa Maria Joseph</p>
+              <p>Cultural Secretary</p>
+              <p>Phone: 63808 05183</p>
+            </div>
+            <div className="p-4 border border-zinc-700 rounded-lg">
+              <p>D. L. Ruban Raj</p>
+              <p>Event Secretary</p>
+              <p>Phone: 97916 12747</p>
+            </div>
+            <div className="p-4 border border-zinc-700 rounded-lg">
+              <p>U. Lalith Chandran</p>
+              <p>Secretary</p>
+              <p>Phone: 89395 82686</p>
+            </div>
+          </div>
+        </section>
         </section>
       </div>
     </div>

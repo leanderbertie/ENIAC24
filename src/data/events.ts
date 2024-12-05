@@ -29,7 +29,7 @@ export const eventsData: Record<string, Event[]> = {
       rules: [
       "It is an individual events",
       "Two entry per Departments",
-      "Multiple Rounds will be Contacted",
+      "Multiple Rounds will be Conducted",
       "Participants will be eliminated after each round.",
       "One MR &MRS will be awarded",
       "Make it till the final round to conquer the title MR/MRS ENIAC",
@@ -38,13 +38,13 @@ export const eventsData: Record<string, Event[]> = {
       ],
       contacts: [
         {
-          name: "joseph",
-          phone: "6380805183"
-        },
-        {
           name: "Joshwa",
           phone: "7397566377"
-        }
+        },
+        {
+          name: "Joseph",
+          phone: "6380805183"
+        },
       ]
     },
     {
@@ -54,7 +54,7 @@ export const eventsData: Record<string, Event[]> = {
       image: "/images/QUIZ POSTER copy (1).webp",
       date: "13 December 2024",
       time: "12:00 PM",
-      venue: "Sauliere HALL",
+      venue: "Sauliere Hall",
       registrationLink: "https://forms.gle/js2VFikdHG6TTWvf6",
       rules: [
       "One team should have maximum of 3 people.",
@@ -173,7 +173,7 @@ export const eventsData: Record<string, Event[]> = {
       description: "Create web designs based on a given theme.",
       image: "/images/WEB DESIGN POSTER copy (1).webp",
       date: "13 December 2024",
-      time: "11:00 AM",
+      time: "10:30 AM",
       venue: "Computer Lab",
       registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSeJfEW70SZIzwmTZa_4cNmDY7j9CFcW0PUdZQdoNs0sMyezlQ/viewform?usp=sf_link",
       rules: [
@@ -262,7 +262,7 @@ export const eventsData: Record<string, Event[]> = {
       image: "/images/PAPER PRESENTATION POSTER copy (1).webp",
       date: "13 December 2024",
       time: "10:30 AM",
-      venue: "Computer Lab",
+      venue: "Classroom",
       registrationLink: "https://forms.gle/8kxSEnAgTmHiX6iq6",
       rules: [
         "paper presentation topics:Data mining, Data efficiency management,Big data analytics,Machine Learning Data analytics, Deep learning IOT Data analytics,Ai in Data management",

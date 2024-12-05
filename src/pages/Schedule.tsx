@@ -1,4 +1,4 @@
-import { Calendar, MapPin, Clock } from 'lucide-react';
+import { MapPin, Clock } from 'lucide-react';
 
 const scheduleData = [
     {
@@ -14,17 +14,17 @@ const scheduleData = [
     {
       time: "10:30 AM",
       event: "Bug Hunter Arena",
-      venue: "Lab"
+      venue: "Computer Lab"
     },
     {
       time: "10:30 AM",
       event: "Pixel Craft",
-      venue: "Lab"
+      venue: "Computer Lab"
     },
     {
       time: "10:30 AM",
       event: "Electrocode",
-      venue: "Lab"
+      venue: "Computer Lab"
     },
     {
       time: "10:30 AM",
@@ -34,7 +34,7 @@ const scheduleData = [
     {
       time: "10:30 AM",
       event: "Think Tank",
-      venue: "Class Room"
+      venue: "Classroom"
     },
     {
       time: "12:00 PM",
@@ -125,44 +125,7 @@ export default function Schedule() {
             ))}
           </div>
         </div>
-
-        {/* Divider */}
-        <div className="relative py-4 sm:py-8">
-          <div className="absolute inset-0 flex items-center">
-            <div className="w-full border-t border-[#ff7f00]/20"></div>
-          </div>
-        </div>
-
-        {/* Event Details Section */}
-        <div className="bg-black/40 backdrop-blur-xl rounded-xl p-4 sm:p-8 border border-[#ff7f00]/10">
-          <h2 className="text-lg sm:text-2xl font-bold mb-4 sm:mb-8 text-[#ff7f00]">
-            Event Details
-          </h2>
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 sm:gap-8">
-            <div className="flex items-center gap-3">
-              <Calendar className="text-[#ff7f00] w-5 h-5 sm:w-6 sm:h-6" />
-              <div>
-                <h3 className="text-zinc-400 text-xs sm:text-sm mb-0.5">Date</h3>
-                <p className="text-base sm:text-lg font-semibold">13 December 2024</p>
-              </div>
-            </div>
-            <div className="flex items-center gap-3">
-              <MapPin className="text-[#ff7f00] w-5 h-5 sm:w-6 sm:h-6" />
-              <div>
-                <h3 className="text-zinc-400 text-xs sm:text-sm mb-0.5">Venue</h3>
-                <p className="text-base sm:text-lg font-semibold">Sauliere  Hall</p>
-              </div>
-            </div>
-            <div className="flex items-center gap-3">
-              <Clock className="text-[#ff7f00] w-5 h-5 sm:w-6 sm:h-6" />
-              <div>
-                <h3 className="text-zinc-400 text-xs sm:text-sm mb-0.5">Time</h3>
-                <p className="text-base sm:text-lg font-semibold">9:00 A.M Onwards</p>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
-    </div>
+    </div>  
   );
 }
