@@ -270,7 +270,7 @@ export const eventsData: Record<string, Event[]> = {
         "Timings 6+2 (6mins presentation+2mins preparation)no extra time and will be paused if time limit exceeds",
         "Make your title and content legible",
         "Directly copying from the internet is discouraged and will not be entertained",
-        "Abstract should be submitted on or before 8th December",
+        "Abstract should be submitted on or before 9th December",
         "Paper presentation should be submitted on 10th December",
         "Final participants for presenting onstage will be short listed based on contents that they had submitted",
         "Based on application/model/implementation priority will be given"
