@@ -21,7 +21,7 @@ export default function Home() {
         <img 
             src="/images/Organizes.png" 
             alt="Organizes" 
-            className="w-70 h-60 drop-shadow-[0_0_25px_rgba(255,127,0,0.3)]" 
+            className="w-full h-auto max-w-[700px] drop-shadow-[0_0_25px_rgba(255,127,0,0.3)]" 
           />
           <img 
             src="/images/logo final .png" 
