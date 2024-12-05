@@ -16,7 +16,7 @@ export default function Navbar() {
       <nav className="fixed top-0 w-full z-50 px-6 py-4 backdrop-blur-md bg-zinc-900/30 border-b border-zinc-800/50">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <Link to="/" onClick={() => setIsMenuOpen(false)}>
-            <img src="images\logo final .png" 
+            <img src="/images/logo final .png" 
             alt="ENIAC'24"  className="w-12 h-12" />
           </Link>
           <div className="flex items-center gap-6">

@@ -19,7 +19,7 @@ export default function Home() {
         {/* Hero Section */}
         <div className="flex flex-col items-center gap-10 mb-24">
           <img 
-            src="images\logo final .png" 
+            src="/images/logo final .png" 
             alt="ENIAC'24" 
             className="w-48 h-48 drop-shadow-[0_0_25px_rgba(255,127,0,0.3)]" 
           />
