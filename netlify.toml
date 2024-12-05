@@ -1,9 +1,13 @@
-[build]
-  command = "npm run build" # Use the build command for Vite
-  publish = "dist" # This is the default output directory for Vite
+[
+build
+]
+  command = "npm run build"
+  publish = "dist"
 
-[[redirects]]
+[[
+redirects
+]]
   from = "/*"
   to = "/index.html"
   status = 200
-  force = true
+  
