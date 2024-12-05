@@ -1,23 +1,27 @@
 import { ArrowUpRight } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'; // Ensure Router is wrapped around the app
 import type { Event } from '../data/events';
 
 type ProjectCardProps = Event;
 
 export default function ProjectCard({ id, title, image }: ProjectCardProps) {
   return (
-    <Link 
+    <Link
       to={`/event/${id}`}
       className="bg-zinc-800/30 backdrop-blur-sm rounded-3xl overflow-hidden group cursor-pointer card-hover border border-zinc-800/50"
     >
+      {/* Card Image */}
       <div className="aspect-square relative overflow-hidden">
-        <img 
-          src={image} 
-          alt={title} 
+        <img
+          src={image}
+          alt={title}
           className="object-cover w-full h-full group-hover:scale-105 transition duration-500"
         />
+        {/* Gradient Overlay */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
       </div>
+
+      {/* Card Content */}
       <div className="p-6">
         <div className="flex justify-between items-start mb-4">
           <h3 className="text-xl font-bold text-white">{title}</h3>
