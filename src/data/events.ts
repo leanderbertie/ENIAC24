@@ -18,8 +18,8 @@ export interface Event {
 export const eventsData: Record<string, Event[]> = {
   onstage: [
     {
-      id: "Mr & Mrs.ENIAC",
-      title: "Mr & Mrs. ENIAC (Title Event)",
+      id: "Mr & Ms.ENIAC",
+      title: "Mr & Ms. ENIAC (Title Event)",
       description: "Title event is a prestigious individual event.Participants will undergo several different rounds based on judges decisions. Each round has elimination among all participants.The last person standing will be crowned as MR/MRS ENIAC 2024.",
       image: "/images/title event poster.webp",
       date: "13 December 2024",

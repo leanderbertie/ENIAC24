@@ -8,7 +8,7 @@ const scheduleData = [
     },
     {
       time: "10:00 AM",
-      event: "Mr and Mrs ENIAC",
+      event: "Mr and Ms ENIAC",
       venue: "Sauliere Hall"
     },
     {
