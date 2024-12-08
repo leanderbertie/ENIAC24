@@ -20,7 +20,7 @@ export const eventsData: Record<string, Event[]> = {
     {
       id: "Mr & Ms.ENIAC",
       title: "Mr & Ms. ENIAC (Title Event)",
-      description: "Title event is a prestigious individual event.Participants will undergo several different rounds based on judges decisions. Each round has elimination among all participants.The last person standing will be crowned as MR/MRS ENIAC 2024.",
+      description: "Title event is a prestigious individual event.Participants will undergo several different rounds based on judges decisions. Each round has elimination among all participants.The last person standing will be crowned as MR/MS ENIAC 2024.",
       image: "/images/title event poster.webp",
       date: "13 December 2024",
       time: "10:00 AM",
@@ -31,8 +31,8 @@ export const eventsData: Record<string, Event[]> = {
       "Two entry per Departments",
       "Multiple Rounds will be Conducted",
       "Participants will be eliminated after each round.",
-      "One MR &MRS will be awarded",
-      "Make it till the final round to conquer the title MR/MRS ENIAC",
+      "One MR & MS will be awarded",
+      "Make it till the final round to conquer the title MR/MS ENIAC",
       "Any form of vulgarity will lead to direct disqualification.",
       "Judge’s decision will be final and binding."
       ],
