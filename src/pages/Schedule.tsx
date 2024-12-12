@@ -14,32 +14,32 @@ const scheduleData = [
     {
       time: "10:30 AM",
       event: "Bug Hunter Arena",
-      venue: "Computer Lab"
+      venue: "Computer Lab 2, lab 3"
     },
     {
       time: "10:30 AM",
       event: "Pixel Craft",
-      venue: "Computer Lab"
+      venue: "Computer Lab 1"
     },
     {
       time: "10:30 AM",
       event: "Electrocode",
-      venue: "Computer Lab"
+      venue: "PG Computer Lab"
     },
     {
       time: "10:30 AM",
       event: "Team Hunt",
-      venue: "Smart Room"
+      venue: "Prelims : Classroom JS 10,11,12 , Finals : Smart Room"
     },
     {
       time: "10:30 AM",
       event: "Think Tank",
-      venue: "Classroom"
+      venue: "Classroom JS 16"
     },
     {
       time: "12:00 PM",
       event: "Quiztopia",
-      venue: "Sauliere Hall"
+      venue: "Classroom JS 19,20,21"
     },
     {
       time: "1:00 PM",
