@@ -8,47 +8,47 @@ const scheduleData = [
     },
     {
       time: "10:00 AM",
-      event: "Mr and Ms ENIAC",
+      event: "Mr & Ms. ENIAC (Title Event)",
       venue: "Sauliere Hall"
     },
     {
       time: "10:30 AM",
-      event: "Bug Hunter Arena",
+      event: "Bug Hunter Arena (Debugging)",
       venue: "Computer Lab 2, lab 3"
     },
     {
       time: "10:30 AM",
-      event: "Pixel Craft",
+      event: "Pixel Craft (Web Design)",
       venue: "Computer Lab 1"
     },
     {
       time: "10:30 AM",
-      event: "Electrocode",
+      event: "Electrocode (Weird Coding)",
       venue: "PG Computer Lab"
     },
     {
       time: "10:30 AM",
-      event: "Team Hunt",
+      event: "Team Hunt (IPL Auction)",
       venue: "Prelims : Classroom JS 10,11,12 , Finals : Smart Room"
     },
     {
       time: "10:30 AM",
-      event: "Think Tank",
+      event: "Think Tank (Paper Presentation)",
       venue: "Classroom JS 16"
     },
     {
       time: "12:00 PM",
-      event: "Quiztopia",
+      event: "Quiztopia (Quiz)",
       venue: "Classroom JS 19,20,21"
     },
     {
       time: "1:00 PM",
-      event: "Ad Mavericks",
+      event: "Ad Mavericks (Adzap)",
       venue: "Sauliere Hall"
     },
     {
       time: "2:00 PM",
-      event: "Remote Chaos",
+      event: "Remote Chaos (Channel Surfing)",
       venue: "Sauliere Hall"
     },
     {
